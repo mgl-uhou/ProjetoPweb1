@@ -17,6 +17,7 @@ body{
 
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding-top: 55px;
     gap: 17px;
 }
@@ -30,6 +31,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 
     position: absolute;
     bottom: 0;
