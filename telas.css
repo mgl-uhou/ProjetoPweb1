@@ -1,99 +1,99 @@
 body{
-    height: 96vh;
-    /* background-image: url("Pizza.jpg"); */
-    background-image: url("https://pbs.twimg.com/media/Evri1c8XMAIo35Q?format=jpg&name=large");
-    background-color: #6A0808;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+  height: 96vh;
+  background-image: url("https://pbs.twimg.com/media/Evri1c8XMAIo35Q?format=jpg&name=large");
+  background-color: #6A0808;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #formulario{
-    background-color: rgba(103, 2, 2, 0.61);
-    border-radius: 50px;
-    border: none;
+  background-color: rgba(103, 2, 2, 0.61);
+  border-radius: 50px;
+  border: none;
 
-    width: 440px;
-    height: 600px;
+  width: 440px;
+  height: 600px;
 
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-family: 'Rampart One', sans-serif;
 }
 
 h1{
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 45px;
-    font-weight: lighter;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 45px;
+  font-weight: lighter;
 }
 
 input{
-    outline: none;
-    border: none;
-    border-radius: 10px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
 
-    background-color: #6A0808;
-    color: white;
+  background-color: #6A0808;
+  color: white;
 
-    width: 350px;
-    height: 50px;
+  width: 350px;
+  height: 50px;
 
-    padding-left: 30px;
+  padding-left: 30px;
 }
 
 input,
 label{
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 #btn{
-    display: flex;
-    justify-content: center;
-    margin-top: 85px;
-
+  display: flex;
+  justify-content: center;
+  margin-top: 85px;
 }
 
 #btnCadastro{
-    display: flex;
-    justify-content: center;
-    margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+  margin-bottom: 15px;
 }
 
 button{
-    color: white;
-    background-color: #6A0808;
+  color: white;
+  background-color: #6A0808;
 
-    border: none;
-    border-radius: 25px;
+  border: none;
+  border-radius: 25px;
 
-    width: 160px;
-    height: 50px;
+  width: 160px;
+  height: 50px;
 }
 
 ::placeholder{
-    color: white;
+  color: white;
 }
 
 small{
-    display: flex;
-    justify-content: center;
-    margin-top: 80px;
-    gap: 4px;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  gap: 4px;
 }
 
 a{
-    text-decoration: none;
-    color: #521b1b;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 10px;
 }
 
 small a:hover{
-    text-decoration: underline;
-    color: rgb(255, 94, 94);
+  text-decoration: underline;
+  /* color: rgb(255, 94, 94); */
 }
