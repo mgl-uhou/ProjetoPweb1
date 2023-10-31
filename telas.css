@@ -74,6 +74,13 @@ button{
 
   width: 160px;
   height: 50px;
+
+  transition: 0.3s;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: #A91212;
 }
 
 ::placeholder{

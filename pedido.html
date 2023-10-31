@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acompanhe seu pedido</title>
+
+    <link rel="stylesheet" href="pedido.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+</head>
+<body>
+    
+    <nav id="opcoes">
+
+        <a href="index.html">HOME</a>
+        
+        <a href="cardapio.html">CARDÁPIO</a>
+        
+        <a href="#">LOCALIZAÇÃO</a>
+        
+        <a href="telaLogin.html">LOGIN</a>
+
+    </nav>
+
+    <div id="container">
+
+        <form>
+
+            <label for="codPedido">
+                <h1>ACOMPANHE SEU PEDIDO AQUI:</h1>
+            </label>
+    
+            <label for="codPedido">CÓDIGO DO PEDIDO:</label>
+            <input type="number" id="codPedido" placeholder="000000000">
+            <button type="submit">Buscar</button>
+
+        </form>
+
+        <div id="sobrePedido">
+
+            <span>
+                Pedido de número: <span id="numPedido">000000000</span>
+            </span>
+
+            <div id="estadoPedido">
+                
+                <span id="espera">Em espera...</span>
+                <span id="preparando">Preparando....</span>
+                <span id="entrega">Saiu para a entrega...</span>
+                <span id="fim">Chegou ao destino final.</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
